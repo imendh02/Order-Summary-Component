@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    height:100vh;
+    max-width:1440px;
+    background-image:url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+}
+.container {
+    background-color: white;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    width: 430px;
+    border-radius: 20px;
+}
+.container .card-image {
+    height:35%;
+    width:100%;
+    position: absolute;
+    background-image: url(./images/illustration-hero.svg);
+    background-repeat: repeat-x;
+    border-radius: 20px 20px 0 0;
+}
+.container .card-text { 
+    margin-top: 220px;
+    padding:40px;
+    width:100%;
+}
+.card-text h2{
+    color:hsl(223, 47%, 23%);
+}
+.card-text p {
+    font-weight: 500;
+    font-size: 16px;
+    color:hsl(224, 23%, 55%);
+    line-height: 1.5;
+}
+.card-text .cadre {
+    background-color: hsl(225, 100%, 98%);
+    height:25%;
+    border-radius: 10px;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cadre-col2-l1{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+.cadre-col3{
+    display: flex;
+    align-items: center;
+}
+.cadre-col3 a {
+    color:hsl(245, 75%, 52%);
+    font-weight:500;
+}
+.cadre-col3 a:hover{
+    filter: brightness(150%);
+    text-decoration:none;
+}
+.card-text button {
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%);
+    width: 100%;
+    border-radius: 10px;
+    padding:13px;
+    border-style: inherit;
+    font-weight: 700;
+    box-shadow: 5px 5px 8px grey;
+}
+.card-text button:hover{
+    filter: brightness(150%);
+}
+.last {
+    font-weight: 500;
+    padding-top:25px;
+}
+.last a {
+    color:hsl(224, 23%, 55%);
+}
+.last a:hover {
+    color:hsl(223, 47%, 23%);
+}
+.attribution { 
+    width: 100%;
+    position: fixed;
+    bottom: 0.3rem;
+    font-size: 12px;
+    text-align: center;
+  }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
